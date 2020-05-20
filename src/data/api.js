@@ -1,6 +1,7 @@
 // this is copied from the tutorial 'How to Use Wordpress as a Headless CMS' at https://www.youtube.com/watch?v=fLZ0C5RBAxE
 
-const endPoint = 'https://offlineabsence.wordpress.com/wp-json'
+//wordpress demo site
+const endPoint = 'http://demo.wp-api.org/wp-json'
 
 const wpAPI = {
     settings: `${endPoint}/wp/v2/settings`,
