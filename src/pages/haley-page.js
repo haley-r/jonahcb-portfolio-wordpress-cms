@@ -36,7 +36,7 @@ class HaleyPage extends Component {
     return (
       <Layout>
         <SEO title="TEST" />
-        <h1>Haley Page</h1>
+        <h1>Haeley Page</h1>
         <p>Try the WP API stuff here!</p>
         {this.state.posts[0]&&
           <>
