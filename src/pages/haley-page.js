@@ -12,7 +12,7 @@ class HaleyPage extends Component {
   componentDidMount() {
     console.log('hi, haley page mounted');
     //get all posts
-    fetch('http://policemisconductlitigation.com//wp-json/wp/v2/posts')
+    fetch('https://policemisconductlitigation.com//wp-json/wp/v2/posts')
     .then(results => results.json())
     .then(data => {
       console.log(data);
@@ -21,7 +21,7 @@ class HaleyPage extends Component {
       })})
     .catch(error => console.log('something went wrong while fetching posts', error));
     //get all media
-    fetch('http://policemisconductlitigation.com//wp-json/wp/v2/media')
+    fetch('https://policemisconductlitigation.com//wp-json/wp/v2/media')
       .then(results => results.json())
       .then(data => {
         console.log(data);
